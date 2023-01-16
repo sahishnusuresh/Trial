@@ -1,0 +1,7 @@
+Global execution context what happens:
+-First, a global object is created which 
+is the window which the javascript engine uses.
+-Next, a this object is created which refers to something in the window.
+-Then the variables are given memory space
+and functions are referenced by their declaration
+-Assign variables default values (Undefined) and place function declarations in memory.
