@@ -4,3 +4,7 @@ onto the call stack and once it is executed
 it is popped off the call stack.once call stack is clear
 task queue is looked upon for tasks///
 
+// settimout is a non blocking async Javascript
+this is pushed onto to web apis instead 
+of call stack.Once the anonymous function is executed
+it is pushed onto task queue
