@@ -1,3 +1,6 @@
+// .call() method is used to invoke a function along 
+// with specifying in which contect the function is 
+// invoked
 function student(name,age,city,sport){
     this.name=name;
     this.age=age;
@@ -16,7 +19,12 @@ function slife(name,age,city,sport,course){
     student.call(this,name,age,city,sport);
     this.course=course;
 }
+
 slife.prototype=Object.create(student.prototype);
+slife.prototype.chill=function(){
+    console.log('playing video games');
+};
 const sahi=new slife('sahishnu',21,'bangalore','basketball','cse');
 
 sahi.do();
+sahi.chill();
