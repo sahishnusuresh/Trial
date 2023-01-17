@@ -9,5 +9,4 @@ function a(){
     };
 }
 var name1=a();
-console.log(name1);
-
+name1();
