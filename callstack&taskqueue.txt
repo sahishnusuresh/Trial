@@ -1,0 +1,6 @@
+///Javascript is single threaded.Only one task can
+be executed at a time.so every task is put 
+onto the call stack and once it is executed
+it is popped off the call stack.once call stack is clear
+task queue is looked upon for tasks///
+

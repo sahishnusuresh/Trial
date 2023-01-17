@@ -11,3 +11,5 @@ var obj1={
    }
 };
 obj1.printname();
+
+

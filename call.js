@@ -12,3 +12,10 @@ var func1=function(obj){
 
  // call function immediately invokes 
  //the function
+ var obj3={
+    age:22
+ };
+ var arr=[obj2,obj3]
+ func1.apply(arr);
+
+ 
